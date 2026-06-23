@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Large dataset files (download separately — see data/README.md)
+ml-25m/ratings.csv
+ml-25m/genome-scores.csv
+ml-25m/tags.csv
+ml-25m/links.csv
+ml-25m/processed_ratings.csv
+ml-25m/movie_features.csv
+ml-25m/processed_movies.csv
+
+# Duplicate / intermediate figure outputs (final versions are in figures/)
+new/
+algorithm_*.png
+
+# Root-level duplicate figures (copies exist in figures/)
+/dynamic_vs_static_comparison.png
+/popularity_aware_analysis.png
+/cold_start_analysis.png
+/performance_comparison.png
+
+# Legacy figure scripts (superseded by generate_high_quality_figures.py)
+generate_paper_figures.py
+generate_figures_real_data.py
+generate_paper_figures_real_data.py
+
+# Early planning notes (not part of final deliverable)
+研究现状分析.md
+README_论文.md
+
+# Word binary (Markdown versions are in docs/)
+论文/
+
+# Duplicate docs at root (canonical copies in docs/)
+/paper.md
+/paper.tex
+/paper_outline.md
+/experiment_design.md
+
+# Duplicate figures at root (canonical copies in figures/)
+/dynamic_arm_flowchart.png
+/framework_architecture.png
