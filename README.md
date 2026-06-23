@@ -2,8 +2,6 @@
 
 **Multi-Armed Bandit Algorithms for Recommender Systems in Non-Stationary Environments**
 
-作者：张雪纯 · 南京信息工程大学
-
 ---
 
 ## 项目简介
